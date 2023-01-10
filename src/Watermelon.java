@@ -8,10 +8,10 @@ public class Watermelon {
         if (w > 0 && w <= 100 && w % 2 == 0){ // that mean w is even
             System.out.println("yes");
         }
-        else if (w > 100){ // that mean w is odd
+        else if (w > 100){
             System.out.println("please enter weight between 1 to 100");
         }
-        else {
+        else { // that mean w is odd
             System.out.println("no");
         }
     }
