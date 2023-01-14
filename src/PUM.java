@@ -9,7 +9,7 @@ public class PUM {
         for (int i = 1 ; i <= numOfLines ; i++){
             for (int m = num ; m % 4 != 0 ; m++ ){
                 num = m;
-                pum += num + " ";
+                pum += m + " ";
             }
             System.out.println(pum + "pum");
             num++;
