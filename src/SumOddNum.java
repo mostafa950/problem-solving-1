@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SumOddNum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // first solution
        /* int numOfLoop = scanner.nextInt();
         int[][] arr = new int[numOfLoop][2];
         int[] sum = new int[numOfLoop];
@@ -30,6 +31,7 @@ public class SumOddNum {
         for (int s = 0 ; s < numOfLoop ; s++){
             System.out.println(sum[s]);
         }*/
+        // second solution
         int numOfLoop = scanner.nextInt();
         int[] arr = new int[numOfLoop];
         int sum = 0;
