@@ -9,15 +9,12 @@ public class GoodNumber {
         int result =0;
         for (int i = 0 ; i < size ; i++){
             String num = scanner.next();
-            for(int x = 0 ; x < num.length() ; x++) {
                 counter = 0;
                 for(int z = 0 ; z <= range ; z++){
                     if(num.contains(String.valueOf(z))){
                         counter++;
                     }
                 }
-
-            }
             if(counter == range+1){
                 result++;
             }
