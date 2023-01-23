@@ -28,7 +28,11 @@ public class KseniaAndPanScales {
         int max = Math.max(left,right);
         if(left < right && addName.length() + left == right) {
             System.out.println(addName+value);
-        } else if (min == max || addName.length()+ min > max) {
+        }
+        else  if(left > right && addName.length() + right == left) {
+            System.out.println(value+addName);
+        }
+        else if (min == max || addName.length()+ min > max || min + addName.length() < max) {
             System.out.println("Impossible");
         } else {
             System.out.println(value+addName);
