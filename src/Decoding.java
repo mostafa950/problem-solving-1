@@ -20,3 +20,15 @@ public class Decoding {
         System.out.println(result);
     }
 }
+
+/*
+java w3school
+sql تلخيص
+sql w3school
+تلخيص java
+oop تلخيص
+data structure
+beauty example for all info of java
+فيديو مقابله الجافا
+فيديو مقابله الداتا بيز
+* */
